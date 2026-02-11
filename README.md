@@ -1,4 +1,4 @@
-## Nkosinathi Nkosi
+## Hi There 👋🏽
 
 Software developer focused on backend systems and automation tools.
 
