@@ -1,16 +1,9 @@
-## Hey there 👋
+## Nkosinathi Nkosi
 
-I build things with code.
+Software developer focused on backend systems and automation tools.
 
-### What I work with
-Languages and tools I use regularly:
-- C#, TypeScript, Go
-- React, Next.js, Node.js, .NET
-- Docker, PostgreSQL
+### Tech stack
+C#, TypeScript, Go, .NET, Next.js, PostgreSQL, Docker
 
-### Current focus
-Working on backend systems and automation tools.
-
-### Reach out
-Open to collaboration on interesting projects.
-[Email](mailto:nkosin361@gmail.com) • [LinkedIn](https://linkedin.com/in/nkosinathi-nkosi)
+### Contact
+nkosin361@gmail.com • [LinkedIn](https://linkedin.com/in/nkosinathi-nkosi)
