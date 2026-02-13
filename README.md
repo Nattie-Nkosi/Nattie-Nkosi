@@ -1,9 +1,17 @@
-## Hi There 👋🏽
+```bash
+$ whoami
+nkosinathi-nkosi
 
-Software developer focused on backend systems and automation tools.
+$ cat /etc/developer.conf
+STACK="C#, TypeScript, Go, .NET, Next.js, PostgreSQL, Docker"
+FOCUS="backend systems, automation tools"
+STATUS="building"
 
-### Tech stack
-C#, TypeScript, Go, .NET, Next.js, PostgreSQL, Docker
+$ ps aux | grep current
+PID   PROJECT                              STATUS
+001   it-certification-exam-simulator      active
 
-### Contact
-nkosin361@gmail.com • [LinkedIn](https://linkedin.com/in/nkosinathi-nkosi)
+$ cat /var/mail/contact
+nkosin361@gmail.com
+linkedin.com/in/nkosinathi-nkosi
+```
