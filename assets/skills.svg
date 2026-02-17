@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="340" viewBox="0 0 850 340">
+  <defs>
+    <filter id="blob-blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="40"/>
+    </filter>
+    <filter id="glow-sm">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1e"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="section-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect width="850" height="340" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="850" height="340" fill="url(#bg)"/>
+
+    <circle cx="150" cy="100" r="120" fill="#3b82f6" fill-opacity="0.06" filter="url(#blob-blur)">
+      <animate attributeName="cy" values="100;160;100" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="250" r="100" fill="#8b5cf6" fill-opacity="0.06" filter="url(#blob-blur)">
+      <animate attributeName="cy" values="250;190;250" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="425" cy="300" r="80" fill="#06b6d4" fill-opacity="0.04" filter="url(#blob-blur)">
+      <animate attributeName="cx" values="425;480;425" dur="14s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="425" y="38" text-anchor="middle" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="500" letter-spacing="4">TECH STACK</text>
+    <line x1="175" y1="50" x2="675" y2="50" stroke="url(#section-line)" stroke-width="1"/>
+
+    <!-- Frontend Card -->
+    <rect x="25" y="68" width="258" height="250" rx="14" fill="#ffffff" fill-opacity="0.04" stroke="url(#glass-border)" stroke-width="1"/>
+    <line x1="40" y1="69" x2="268" y2="69" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.5"/>
+    <rect x="38" y="82" width="8" height="8" rx="2" fill="#3b82f6" fill-opacity="0.8"/>
+    <text x="54" y="90" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="600">Frontend</text>
+
+    <rect x="40" y="108" width="90" height="28" rx="8" fill="#3b82f6" fill-opacity="0.1" stroke="#3b82f6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="85" y="126" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">React</text>
+
+    <rect x="138" y="108" width="90" height="28" rx="8" fill="#3b82f6" fill-opacity="0.1" stroke="#3b82f6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="183" y="126" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">Next.js</text>
+
+    <rect x="40" y="144" width="90" height="28" rx="8" fill="#3b82f6" fill-opacity="0.1" stroke="#3b82f6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="85" y="162" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">TypeScript</text>
+
+    <rect x="138" y="144" width="90" height="28" rx="8" fill="#3b82f6" fill-opacity="0.1" stroke="#3b82f6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="183" y="162" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">JavaScript</text>
+
+    <rect x="40" y="180" width="90" height="28" rx="8" fill="#3b82f6" fill-opacity="0.1" stroke="#3b82f6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="85" y="198" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">Angular</text>
+
+    <rect x="138" y="180" width="90" height="28" rx="8" fill="#3b82f6" fill-opacity="0.1" stroke="#3b82f6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="183" y="198" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">Tailwind CSS</text>
+
+    <rect x="40" y="216" width="90" height="28" rx="8" fill="#3b82f6" fill-opacity="0.1" stroke="#3b82f6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="85" y="234" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">Shadcn UI</text>
+
+    <rect x="138" y="216" width="90" height="28" rx="8" fill="#3b82f6" fill-opacity="0.1" stroke="#3b82f6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="183" y="234" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">Framer</text>
+
+    <!-- Backend Card -->
+    <rect x="296" y="68" width="258" height="250" rx="14" fill="#ffffff" fill-opacity="0.04" stroke="url(#glass-border)" stroke-width="1"/>
+    <line x1="311" y1="69" x2="539" y2="69" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.5"/>
+    <rect x="309" y="82" width="8" height="8" rx="2" fill="#8b5cf6" fill-opacity="0.8"/>
+    <text x="325" y="90" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="600">Backend</text>
+
+    <rect x="311" y="108" width="90" height="28" rx="8" fill="#8b5cf6" fill-opacity="0.1" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="356" y="126" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">Node.js</text>
+
+    <rect x="409" y="108" width="90" height="28" rx="8" fill="#8b5cf6" fill-opacity="0.1" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="454" y="126" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">NestJS</text>
+
+    <rect x="311" y="144" width="90" height="28" rx="8" fill="#8b5cf6" fill-opacity="0.1" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="356" y="162" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">C# / .NET</text>
+
+    <rect x="409" y="144" width="90" height="28" rx="8" fill="#8b5cf6" fill-opacity="0.1" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="454" y="162" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">Golang</text>
+
+    <rect x="311" y="180" width="90" height="28" rx="8" fill="#8b5cf6" fill-opacity="0.1" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="356" y="198" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">ASP.NET</text>
+
+    <rect x="409" y="180" width="90" height="28" rx="8" fill="#8b5cf6" fill-opacity="0.1" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="454" y="198" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">REST APIs</text>
+
+    <rect x="311" y="216" width="90" height="28" rx="8" fill="#8b5cf6" fill-opacity="0.1" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="356" y="234" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">NextAuth</text>
+
+    <rect x="409" y="216" width="90" height="28" rx="8" fill="#8b5cf6" fill-opacity="0.1" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="454" y="234" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">EF Core</text>
+
+    <!-- Database & Tools Card -->
+    <rect x="567" y="68" width="258" height="250" rx="14" fill="#ffffff" fill-opacity="0.04" stroke="url(#glass-border)" stroke-width="1"/>
+    <line x1="582" y1="69" x2="810" y2="69" stroke="#ffffff" stroke-opacity="0.1" stroke-width="0.5"/>
+    <rect x="580" y="82" width="8" height="8" rx="2" fill="#06b6d4" fill-opacity="0.8"/>
+    <text x="596" y="90" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="13" font-weight="600">Database &amp; Tools</text>
+
+    <rect x="582" y="108" width="90" height="28" rx="8" fill="#06b6d4" fill-opacity="0.1" stroke="#06b6d4" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="627" y="126" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">PostgreSQL</text>
+
+    <rect x="680" y="108" width="90" height="28" rx="8" fill="#06b6d4" fill-opacity="0.1" stroke="#06b6d4" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="725" y="126" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">Prisma</text>
+
+    <rect x="582" y="144" width="90" height="28" rx="8" fill="#06b6d4" fill-opacity="0.1" stroke="#06b6d4" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="627" y="162" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">Docker</text>
+
+    <rect x="680" y="144" width="90" height="28" rx="8" fill="#06b6d4" fill-opacity="0.1" stroke="#06b6d4" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="725" y="162" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">Git</text>
+
+    <rect x="582" y="180" width="90" height="28" rx="8" fill="#06b6d4" fill-opacity="0.1" stroke="#06b6d4" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="627" y="198" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">Linux</text>
+
+    <rect x="680" y="180" width="90" height="28" rx="8" fill="#06b6d4" fill-opacity="0.1" stroke="#06b6d4" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="725" y="198" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">Vercel</text>
+
+    <rect x="582" y="216" width="90" height="28" rx="8" fill="#06b6d4" fill-opacity="0.1" stroke="#06b6d4" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="627" y="234" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">AI / LLMs</text>
+
+    <rect x="680" y="216" width="90" height="28" rx="8" fill="#06b6d4" fill-opacity="0.1" stroke="#06b6d4" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="725" y="234" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="500">.NET MAUI</text>
+  </g>
+</svg>

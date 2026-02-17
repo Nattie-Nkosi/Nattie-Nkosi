@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="260" viewBox="0 0 850 260">
+  <defs>
+    <filter id="blob-blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="40"/>
+    </filter>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1e"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="stat-border-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="stat-border-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="stat-border-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="stat-border-4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="section-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect width="850" height="260" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="850" height="260" fill="url(#bg)"/>
+
+    <circle cx="100" cy="200" r="110" fill="#3b82f6" fill-opacity="0.06" filter="url(#blob-blur)">
+      <animate attributeName="cx" values="100;160;100" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="60" r="90" fill="#8b5cf6" fill-opacity="0.05" filter="url(#blob-blur)">
+      <animate attributeName="cx" values="750;690;750" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="425" cy="240" r="70" fill="#06b6d4" fill-opacity="0.04" filter="url(#blob-blur)">
+      <animate attributeName="cy" values="240;180;240" dur="10s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="425" y="35" text-anchor="middle" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="500" letter-spacing="4">ABOUT ME</text>
+    <line x1="175" y1="47" x2="675" y2="47" stroke="url(#section-line)" stroke-width="1"/>
+
+    <!-- Bento grid - 4 stat cards -->
+
+    <!-- Card 1: Location -->
+    <rect x="25" y="65" width="195" height="170" rx="14" fill="#ffffff" fill-opacity="0.04" stroke="url(#stat-border-1)" stroke-width="1"/>
+    <line x1="40" y1="66" x2="205" y2="66" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.5"/>
+
+    <circle cx="122" cy="110" r="22" fill="#3b82f6" fill-opacity="0.1" stroke="#3b82f6" stroke-opacity="0.15" stroke-width="0.5"/>
+    <text x="122" y="117" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#e2e8f0">&#127487;&#127462;</text>
+
+    <text x="122" y="155" text-anchor="middle" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="14" font-weight="600">Johannesburg</text>
+    <text x="122" y="175" text-anchor="middle" fill="#64748b" font-family="'Segoe UI', system-ui, sans-serif" font-size="11">South Africa</text>
+
+    <rect x="72" y="195" width="100" height="22" rx="6" fill="#3b82f6" fill-opacity="0.08" stroke="#3b82f6" stroke-opacity="0.15" stroke-width="0.5"/>
+    <circle cx="90" cy="206" r="3" fill="#10b981">
+      <animate attributeName="fill-opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="128" y="210" text-anchor="middle" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="500">AVAILABLE</text>
+
+    <!-- Card 2: Roles -->
+    <rect x="232" y="65" width="195" height="170" rx="14" fill="#ffffff" fill-opacity="0.04" stroke="url(#stat-border-2)" stroke-width="1"/>
+    <line x1="247" y1="66" x2="412" y2="66" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.5"/>
+
+    <text x="329" y="98" text-anchor="middle" fill="#64748b" font-family="'Segoe UI', system-ui, sans-serif" font-size="9" font-weight="500" letter-spacing="2">ROLES</text>
+
+    <rect x="252" y="112" width="155" height="30" rx="8" fill="#8b5cf6" fill-opacity="0.06" stroke="#8b5cf6" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="329" y="132" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500">Software Developer</text>
+
+    <rect x="252" y="150" width="155" height="30" rx="8" fill="#8b5cf6" fill-opacity="0.06" stroke="#8b5cf6" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="329" y="170" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500">IT Specialist</text>
+
+    <rect x="252" y="188" width="155" height="30" rx="8" fill="#8b5cf6" fill-opacity="0.06" stroke="#8b5cf6" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="329" y="208" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="500">Problem Solver</text>
+
+    <!-- Card 3: Focus -->
+    <rect x="439" y="65" width="195" height="170" rx="14" fill="#ffffff" fill-opacity="0.04" stroke="url(#stat-border-3)" stroke-width="1"/>
+    <line x1="454" y1="66" x2="619" y2="66" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.5"/>
+
+    <text x="536" y="98" text-anchor="middle" fill="#64748b" font-family="'Segoe UI', system-ui, sans-serif" font-size="9" font-weight="500" letter-spacing="2">CURRENT FOCUS</text>
+
+    <text x="536" y="140" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', system-ui, sans-serif" font-size="22" font-weight="700">Full-Stack</text>
+    <text x="536" y="165" text-anchor="middle" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="13">Web Development</text>
+
+    <rect x="479" y="185" width="115" height="24" rx="7" fill="#06b6d4" fill-opacity="0.08" stroke="#06b6d4" stroke-opacity="0.15" stroke-width="0.5"/>
+    <text x="536" y="201" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="10" font-weight="500">Next.js + .NET</text>
+
+    <!-- Card 4: Exploring -->
+    <rect x="646" y="65" width="179" height="170" rx="14" fill="#ffffff" fill-opacity="0.04" stroke="url(#stat-border-4)" stroke-width="1"/>
+    <line x1="661" y1="66" x2="810" y2="66" stroke="#ffffff" stroke-opacity="0.08" stroke-width="0.5"/>
+
+    <text x="735" y="98" text-anchor="middle" fill="#64748b" font-family="'Segoe UI', system-ui, sans-serif" font-size="9" font-weight="500" letter-spacing="2">EXPLORING</text>
+
+    <rect x="666" y="112" width="139" height="34" rx="10" fill="#10b981" fill-opacity="0.06" stroke="#10b981" stroke-opacity="0.12" stroke-width="0.5"/>
+    <circle cx="684" cy="129" r="5" fill="#10b981" fill-opacity="0.3"/>
+    <circle cx="684" cy="129" r="2.5" fill="#10b981" fill-opacity="0.7"/>
+    <text x="742" y="134" text-anchor="middle" fill="#6ee7b7" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="500">Golang</text>
+
+    <rect x="666" y="156" width="139" height="34" rx="10" fill="#10b981" fill-opacity="0.06" stroke="#10b981" stroke-opacity="0.12" stroke-width="0.5"/>
+    <circle cx="684" cy="173" r="5" fill="#10b981" fill-opacity="0.3"/>
+    <circle cx="684" cy="173" r="2.5" fill="#10b981" fill-opacity="0.7">
+      <animate attributeName="fill-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="742" y="178" text-anchor="middle" fill="#6ee7b7" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="500">AI / LLMs</text>
+
+    <rect x="666" y="200" width="139" height="24" rx="7" fill="#10b981" fill-opacity="0.04" stroke="#10b981" stroke-opacity="0.08" stroke-width="0.5"/>
+    <text x="735" y="216" text-anchor="middle" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="9" font-style="italic">always learning...</text>
+  </g>
+</svg>

@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="520" viewBox="0 0 850 520">
+  <defs>
+    <filter id="blob-blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="45"/>
+    </filter>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1e"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="section-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Card borders with accent glow -->
+    <linearGradient id="border-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="border-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="border-teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="border-green" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <!-- Top accent lines -->
+    <linearGradient id="top-blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#3b82f6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="top-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="top-teal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="top-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </linearGradient>
+
+    <clipPath id="round">
+      <rect width="850" height="520" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="850" height="520" fill="url(#bg)"/>
+
+    <!-- Background blobs -->
+    <circle cx="100" cy="420" r="130" fill="#3b82f6" fill-opacity="0.05" filter="url(#blob-blur)">
+      <animate attributeName="cx" values="100;170;100" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="120" r="110" fill="#8b5cf6" fill-opacity="0.05" filter="url(#blob-blur)">
+      <animate attributeName="cx" values="750;680;750" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="260" r="90" fill="#06b6d4" fill-opacity="0.04" filter="url(#blob-blur)">
+      <animate attributeName="cy" values="260;320;260" dur="16s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Section header -->
+    <text x="425" y="38" text-anchor="middle" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="11" font-weight="500" letter-spacing="4">FEATURED PROJECTS</text>
+    <line x1="175" y1="50" x2="675" y2="50" stroke="url(#section-line)" stroke-width="1"/>
+
+    <!-- ==================== Project 1: MyReddit ==================== -->
+    <rect x="25" y="68" width="392" height="210" rx="14" fill="#ffffff" fill-opacity="0.03" stroke="url(#border-blue)" stroke-width="1"/>
+    <!-- Top accent glow line -->
+    <line x1="60" y1="68" x2="382" y2="68" stroke="url(#top-blue)" stroke-width="1.5"/>
+
+    <!-- Project number -->
+    <text x="46" y="100" fill="#3b82f6" fill-opacity="0.15" font-family="'Segoe UI', system-ui, sans-serif" font-size="36" font-weight="800">01</text>
+
+    <!-- Title row -->
+    <text x="90" y="100" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="700">MyReddit</text>
+    <rect x="340" y="86" width="60" height="20" rx="10" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="370" y="100" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="600" letter-spacing="1">LIVE</text>
+
+    <!-- Description -->
+    <text x="46" y="128" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="12">A modern, full-featured Reddit-like community</text>
+    <text x="46" y="146" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="12">platform for discussions and engagement.</text>
+
+    <!-- Separator -->
+    <line x1="46" y1="162" x2="396" y2="162" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+
+    <!-- Tech stack row -->
+    <text x="46" y="183" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="500" letter-spacing="1.5">STACK</text>
+
+    <rect x="85" y="172" width="58" height="20" rx="5" fill="#3b82f6" fill-opacity="0.08" stroke="#3b82f6" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="114" y="186" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="9">Next.js</text>
+
+    <rect x="149" y="172" width="72" height="20" rx="5" fill="#3b82f6" fill-opacity="0.08" stroke="#3b82f6" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="185" y="186" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="9">TypeScript</text>
+
+    <rect x="227" y="172" width="52" height="20" rx="5" fill="#3b82f6" fill-opacity="0.08" stroke="#3b82f6" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="253" y="186" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="9">Prisma</text>
+
+    <rect x="285" y="172" width="72" height="20" rx="5" fill="#3b82f6" fill-opacity="0.08" stroke="#3b82f6" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="321" y="186" text-anchor="middle" fill="#93c5fd" font-family="'Segoe UI', sans-serif" font-size="9">PostgreSQL</text>
+
+    <!-- Impact stat -->
+    <rect x="46" y="202" width="360" height="32" rx="8" fill="#3b82f6" fill-opacity="0.04" stroke="#3b82f6" stroke-opacity="0.06" stroke-width="0.5"/>
+    <text x="62" y="222" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="500">IMPACT</text>
+    <text x="110" y="222" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11">Modern discussion platform with community features</text>
+
+
+    <!-- ==================== Project 2: E-commerce ==================== -->
+    <rect x="433" y="68" width="392" height="210" rx="14" fill="#ffffff" fill-opacity="0.03" stroke="url(#border-purple)" stroke-width="1"/>
+    <line x1="468" y1="68" x2="790" y2="68" stroke="url(#top-purple)" stroke-width="1.5"/>
+
+    <text x="454" y="100" fill="#8b5cf6" fill-opacity="0.15" font-family="'Segoe UI', system-ui, sans-serif" font-size="36" font-weight="800">02</text>
+
+    <text x="498" y="100" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="700">E-commerce</text>
+    <rect x="748" y="86" width="60" height="20" rx="10" fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="778" y="100" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="600" letter-spacing="1">LIVE</text>
+
+    <text x="454" y="128" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="12">Medical supplies drop-shipping solution</text>
+    <text x="454" y="146" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="12">built for South African healthcare.</text>
+
+    <line x1="454" y1="162" x2="804" y2="162" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+
+    <text x="454" y="183" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="500" letter-spacing="1.5">STACK</text>
+
+    <rect x="493" y="172" width="58" height="20" rx="5" fill="#8b5cf6" fill-opacity="0.08" stroke="#8b5cf6" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="522" y="186" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="9">Next.js</text>
+
+    <rect x="557" y="172" width="82" height="20" rx="5" fill="#8b5cf6" fill-opacity="0.08" stroke="#8b5cf6" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="598" y="186" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="9">Server Actions</text>
+
+    <rect x="645" y="172" width="52" height="20" rx="5" fill="#8b5cf6" fill-opacity="0.08" stroke="#8b5cf6" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="671" y="186" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="9">Prisma</text>
+
+    <rect x="703" y="172" width="72" height="20" rx="5" fill="#8b5cf6" fill-opacity="0.08" stroke="#8b5cf6" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="739" y="186" text-anchor="middle" fill="#c4b5fd" font-family="'Segoe UI', sans-serif" font-size="9">NextAuth v5</text>
+
+    <rect x="454" y="202" width="360" height="32" rx="8" fill="#8b5cf6" fill-opacity="0.04" stroke="#8b5cf6" stroke-opacity="0.06" stroke-width="0.5"/>
+    <text x="470" y="222" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="500">IMPACT</text>
+    <text x="518" y="222" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11">Streamlined ordering for 50+ healthcare facilities</text>
+
+
+    <!-- ==================== Project 3: Resume Builder ==================== -->
+    <rect x="25" y="295" width="392" height="210" rx="14" fill="#ffffff" fill-opacity="0.03" stroke="url(#border-teal)" stroke-width="1"/>
+    <line x1="60" y1="295" x2="382" y2="295" stroke="url(#top-teal)" stroke-width="1.5"/>
+
+    <text x="46" y="327" fill="#06b6d4" fill-opacity="0.15" font-family="'Segoe UI', system-ui, sans-serif" font-size="36" font-weight="800">03</text>
+
+    <text x="90" y="327" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="700">Resume Builder</text>
+    <rect x="340" y="313" width="60" height="20" rx="10" fill="#06b6d4" fill-opacity="0.12" stroke="#06b6d4" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="370" y="327" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="8" font-weight="600" letter-spacing="1">LIVE</text>
+
+    <text x="46" y="355" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="12">Modern resume builder with multiple templates</text>
+    <text x="46" y="373" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="12">and PDF export functionality.</text>
+
+    <line x1="46" y1="389" x2="396" y2="389" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+
+    <text x="46" y="410" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="500" letter-spacing="1.5">STACK</text>
+
+    <rect x="85" y="399" width="58" height="20" rx="5" fill="#06b6d4" fill-opacity="0.08" stroke="#06b6d4" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="114" y="413" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="9">Next.js</text>
+
+    <rect x="149" y="399" width="72" height="20" rx="5" fill="#06b6d4" fill-opacity="0.08" stroke="#06b6d4" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="185" y="413" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="9">TypeScript</text>
+
+    <rect x="227" y="399" width="68" height="20" rx="5" fill="#06b6d4" fill-opacity="0.08" stroke="#06b6d4" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="261" y="413" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="9">Shadcn UI</text>
+
+    <rect x="301" y="399" width="58" height="20" rx="5" fill="#06b6d4" fill-opacity="0.08" stroke="#06b6d4" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="330" y="413" text-anchor="middle" fill="#67e8f9" font-family="'Segoe UI', sans-serif" font-size="9">Zustand</text>
+
+    <rect x="46" y="429" width="360" height="32" rx="8" fill="#06b6d4" fill-opacity="0.04" stroke="#06b6d4" stroke-opacity="0.06" stroke-width="0.5"/>
+    <text x="62" y="449" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="500">IMPACT</text>
+    <text x="110" y="449" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11">1,000+ users creating professional resumes</text>
+
+
+    <!-- ==================== Project 4: Quiz App ==================== -->
+    <rect x="433" y="295" width="392" height="210" rx="14" fill="#ffffff" fill-opacity="0.03" stroke="url(#border-green)" stroke-width="1"/>
+    <line x1="468" y1="295" x2="790" y2="295" stroke="url(#top-green)" stroke-width="1.5"/>
+
+    <text x="454" y="327" fill="#10b981" fill-opacity="0.15" font-family="'Segoe UI', system-ui, sans-serif" font-size="36" font-weight="800">04</text>
+
+    <text x="498" y="327" fill="#e2e8f0" font-family="'Segoe UI', system-ui, sans-serif" font-size="18" font-weight="700">Quiz App</text>
+
+    <text x="454" y="355" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="12">Interactive quiz application with timer,</text>
+    <text x="454" y="373" fill="#94a3b8" font-family="'Segoe UI', system-ui, sans-serif" font-size="12">scoring, and multiple question categories.</text>
+
+    <line x1="454" y1="389" x2="804" y2="389" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+
+    <text x="454" y="410" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="500" letter-spacing="1.5">STACK</text>
+
+    <rect x="493" y="399" width="50" height="20" rx="5" fill="#10b981" fill-opacity="0.08" stroke="#10b981" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="518" y="413" text-anchor="middle" fill="#6ee7b7" font-family="'Segoe UI', sans-serif" font-size="9">React</text>
+
+    <rect x="549" y="399" width="72" height="20" rx="5" fill="#10b981" fill-opacity="0.08" stroke="#10b981" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="585" y="413" text-anchor="middle" fill="#6ee7b7" font-family="'Segoe UI', sans-serif" font-size="9">TypeScript</text>
+
+    <rect x="627" y="399" width="66" height="20" rx="5" fill="#10b981" fill-opacity="0.08" stroke="#10b981" stroke-opacity="0.12" stroke-width="0.5"/>
+    <text x="660" y="413" text-anchor="middle" fill="#6ee7b7" font-family="'Segoe UI', sans-serif" font-size="9">Tailwind</text>
+
+    <rect x="454" y="429" width="360" height="32" rx="8" fill="#10b981" fill-opacity="0.04" stroke="#10b981" stroke-opacity="0.06" stroke-width="0.5"/>
+    <text x="470" y="449" fill="#475569" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="500">IMPACT</text>
+    <text x="518" y="449" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11">Interactive learning with timed assessments</text>
+  </g>
+</svg>
