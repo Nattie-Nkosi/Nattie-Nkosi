@@ -104,7 +104,7 @@
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nattie-Nkosi&bg_color=0f172a&color=94a3b8&line=3b82f6&point=8b5cf6&area=true&area_color=3b82f6&hide_border=true" width="95%" alt="Contribution Graph" />
+<img src="./profile-3d-contrib/profile-night-green.svg" width="95%" alt="3D Contribution Graph" />
 
 <br/>
 
