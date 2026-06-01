@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="220" viewBox="0 0 640 220" role="img" aria-label="Nkosinathi Nkosi - Software Developer">
+  <defs>
+    <filter id="blob-blur"><feGaussianBlur in="SourceGraphic" stdDeviation="40"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.5"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1e"/><stop offset="50%" stop-color="#0f172a"/><stop offset="100%" stop-color="#0c1425"/>
+    </linearGradient>
+    <linearGradient id="glass-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/><stop offset="50%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/><stop offset="25%" stop-color="#3b82f6" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#8b5cf6" stop-opacity="0.9"/><stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="640" height="220" rx="16"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="640" height="220" fill="url(#bg)"/>
+
+    <circle cx="120" cy="70" r="120" fill="#3b82f6" fill-opacity="0.14" filter="url(#blob-blur)">
+      <animate attributeName="cy" values="70;110;70" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="170" r="110" fill="#8b5cf6" fill-opacity="0.12" filter="url(#blob-blur)">
+      <animate attributeName="cx" values="540;490;540" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="360" cy="40" r="80" fill="#06b6d4" fill-opacity="0.08" filter="url(#blob-blur)">
+      <animate attributeName="cy" values="40;90;40" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="118" cy="110" r="70" fill="url(#glass-fill)" stroke="url(#glass-border)" stroke-width="1"/>
+
+    <g fill="none" stroke="url(#mark)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" transform="translate(118 110) scale(0.62) translate(-100 -102)">
+      <path d="M 50 150 L 50 55 L 100 150 L 100 55 L 150 150 L 150 55" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+        <animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.28;0.9;1" dur="7s" calcMode="spline" keySplines="0.65 0 0.35 1;0 0 1 1;0.65 0 0.35 1" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3;0.42;0.88;0.97" dur="7s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="14 0;14 0;0 0;0 0;0 0" keyTimes="0;0.3;0.45;0.88;1" dur="7s" calcMode="spline" keySplines="0 0 1 1;0.2 0.8 0.2 1;0 0 1 1;0 0 1 1" repeatCount="indefinite"/>
+      <text x="218" y="100" fill="#ffffff" font-family="'Segoe UI', system-ui, sans-serif" font-size="32" font-weight="700" letter-spacing="0.5">Nkosinathi Nkosi</text>
+      <line x1="219" y1="120" x2="430" y2="120" stroke="url(#accent-line)" stroke-width="2" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+        <animate attributeName="stroke-dashoffset" values="1;1;0;0;1" keyTimes="0;0.42;0.55;0.9;1" dur="7s" calcMode="spline" keySplines="0 0 1 1;0.65 0 0.35 1;0 0 1 1;0.65 0 0.35 1" repeatCount="indefinite"/>
+      </line>
+      <text x="220" y="148" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="400" letter-spacing="2">
+        <tspan fill="#3b82f6" font-weight="600">Software Developer</tspan><tspan fill="#475569">  ·  </tspan><tspan fill="#94a3b8">Building in public</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

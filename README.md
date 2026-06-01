@@ -4,6 +4,10 @@
 
 <br/>
 
+<img src="./assets/signature.svg" width="520" alt="Nkosinathi Nkosi signature monogram" />
+
+<br/>
+
 [![Portfolio](https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=3b82f6)](https://portfolio-v2-gamma-one.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=3b82f6)](https://www.linkedin.com/in/nkosinathi-nkosi/)
 [![Twitter](https://img.shields.io/badge/X-0f172a?style=for-the-badge&logo=x&logoColor=3b82f6)](https://x.com/NattieNkosi)
