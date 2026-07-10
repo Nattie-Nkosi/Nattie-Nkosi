@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="627" viewBox="0 0 940 627" font-family="ui-monospace, 'Cascadia Code', 'Courier New', monospace">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe0b0"/>
+      <stop offset="0.55" stop-color="#e8a56a"/>
+      <stop offset="1" stop-color="#b76f3c"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="938" height="625" rx="14" fill="#0b0e14" stroke="#1c2430" stroke-width="1.5"/>
+  <path d="M1 15 a14 14 0 0 1 14 -14 h910 a14 14 0 0 1 14 14 v19 h-938 z" fill="#11151c"/>
+  <line x1="1" y1="34" x2="939" y2="34" stroke="#1c2430" stroke-width="1"/>
+  <circle cx="34" cy="17.0" r="5.5" fill="#ff5f57"/><circle cx="52" cy="17.0" r="5.5" fill="#febc2e"/><circle cx="70" cy="17.0" r="5.5" fill="#28c840"/>
+  <text x="470.0" y="21.0" text-anchor="middle" font-size="12.5" fill="#565f89" font-family="ui-monospace, monospace">nattie@nkosi: ~</text>
+  <text y="207.0" font-size="12.5" fill="url(#skin)" font-family="ui-monospace, 'Cascadia Code', 'Courier New', monospace"><tspan x="34" dy="0" xml:space="preserve">                       ...</tspan><tspan x="34" dy="13.0" xml:space="preserve">                    ...........</tspan><tspan x="34" dy="13.0" xml:space="preserve">                   ..............</tspan><tspan x="34" dy="13.0" xml:space="preserve">                  ...............</tspan><tspan x="34" dy="13.0" xml:space="preserve">                  ...............</tspan><tspan x="34" dy="13.0" xml:space="preserve">                  ...............</tspan><tspan x="34" dy="13.0" xml:space="preserve">                         .......</tspan><tspan x="34" dy="13.0" xml:space="preserve">             ..  .....</tspan><tspan x="34" dy="13.0" xml:space="preserve">          .:.....   .......</tspan><tspan x="34" dy="13.0" xml:space="preserve">          ::.-::  ........ ... ...</tspan><tspan x="34" dy="13.0" xml:space="preserve">          ---*+:.=*:--:...-........</tspan><tspan x="34" dy="13.0" xml:space="preserve">         .=-=+****+=+*+=+-. .+:.....::</tspan><tspan x="34" dy="13.0" xml:space="preserve">          .-=++**+=+++++**++*o+-::.--:</tspan><tspan x="34" dy="13.0" xml:space="preserve">          .-=++++=-===-+****++=--::=-</tspan><tspan x="34" dy="13.0" xml:space="preserve">           :-=++++====+++**++==-::=-</tspan><tspan x="34" dy="13.0" xml:space="preserve">            :-=++======++++==--:.</tspan><tspan x="34" dy="13.0" xml:space="preserve">             :==+++++++++==--:.</tspan><tspan x="34" dy="13.0" xml:space="preserve">              :-===+++==-::.</tspan><tspan x="34" dy="13.0" xml:space="preserve">                ..:::::..</tspan></text>
+  <g font-size="15.0">
+<text x="372.5" y="74.0" xml:space="preserve"><tspan fill="#7aa2f7">nattie</tspan><tspan fill="#565f89">@</tspan><tspan fill="#7aa2f7">nkosi</tspan><tspan fill="#3b4261"> ---------------------------------</tspan></text>
+<text x="372.5" y="105.8" xml:space="preserve"><tspan fill="#e0af68">OS</tspan><tspan fill="#3b4261"> ........... </tspan><tspan fill="#7dcfff">Windows 11 · Arch Linux</tspan></text>
+<text x="372.5" y="126.3" xml:space="preserve"><tspan fill="#e0af68">Host</tspan><tspan fill="#3b4261"> ......... </tspan><tspan fill="#7dcfff">Johannesburg, South Africa</tspan></text>
+<text x="372.5" y="146.8" xml:space="preserve"><tspan fill="#e0af68">Role</tspan><tspan fill="#3b4261"> ......... </tspan><tspan fill="#7dcfff">Senior Software Engineer · IT Specialist</tspan></text>
+<text x="372.5" y="167.3" xml:space="preserve"><tspan fill="#e0af68">Editor</tspan><tspan fill="#3b4261"> ....... </tspan><tspan fill="#7dcfff">VS Code · Neovim</tspan></text>
+<text x="372.5" y="187.8" xml:space="preserve"><tspan fill="#e0af68">Shell</tspan><tspan fill="#3b4261"> ........ </tspan><tspan fill="#7dcfff">bash · pwsh</tspan></text>
+<text x="372.5" y="208.3" xml:space="preserve"><tspan fill="#e0af68">Uptime</tspan><tspan fill="#3b4261"> ....... </tspan><tspan fill="#7dcfff">5+ years coding</tspan></text>
+<text x="372.5" y="240.1" xml:space="preserve"><tspan fill="#f7768e">Languages </tspan><tspan fill="#3b4261">------------------------------------</tspan></text>
+<text x="372.5" y="260.6" xml:space="preserve"><tspan fill="#e0af68">Programming</tspan><tspan fill="#3b4261"> .. </tspan><tspan fill="#9ece6a">TypeScript, JavaScript, C#, Go</tspan></text>
+<text x="372.5" y="281.1" xml:space="preserve"><tspan fill="#e0af68">Frontend</tspan><tspan fill="#3b4261"> ..... </tspan><tspan fill="#9ece6a">React, Next.js, Angular, Tailwind</tspan></text>
+<text x="372.5" y="301.6" xml:space="preserve"><tspan fill="#e0af68">Backend</tspan><tspan fill="#3b4261"> ...... </tspan><tspan fill="#9ece6a">Node.js, NestJS, ASP.NET, EF Core</tspan></text>
+<text x="372.5" y="322.1" xml:space="preserve"><tspan fill="#e0af68">Data &amp; Ops</tspan><tspan fill="#3b4261"> ... </tspan><tspan fill="#9ece6a">PostgreSQL, Prisma, Docker, Vercel</tspan></text>
+<text x="372.5" y="353.8" xml:space="preserve"><tspan fill="#f7768e">Currently </tspan><tspan fill="#3b4261">------------------------------------</tspan></text>
+<text x="372.5" y="374.3" xml:space="preserve"><tspan fill="#e0af68">Learning</tspan><tspan fill="#3b4261"> ..... </tspan><tspan fill="#bb9af7">Go, AI / LLMs</tspan></text>
+<text x="372.5" y="394.8" xml:space="preserve"><tspan fill="#e0af68">Building</tspan><tspan fill="#3b4261"> ..... </tspan><tspan fill="#bb9af7">Full-stack web applications</tspan></text>
+<text x="372.5" y="426.6" xml:space="preserve"><tspan fill="#f7768e">Contact </tspan><tspan fill="#3b4261">--------------------------------------</tspan></text>
+<text x="372.5" y="447.1" xml:space="preserve"><tspan fill="#e0af68">Email</tspan><tspan fill="#3b4261"> ........ </tspan><tspan fill="#7aa2f7">nkosin361@gmail.com</tspan></text>
+<text x="372.5" y="467.6" xml:space="preserve"><tspan fill="#e0af68">Portfolio</tspan><tspan fill="#3b4261"> .... </tspan><tspan fill="#7aa2f7">portfolio-v2-gamma-one.vercel.app</tspan></text>
+<text x="372.5" y="488.1" xml:space="preserve"><tspan fill="#e0af68">LinkedIn</tspan><tspan fill="#3b4261"> ..... </tspan><tspan fill="#7aa2f7">in/nkosinathi-nkosi</tspan></text>
+<text x="372.5" y="508.6" xml:space="preserve"><tspan fill="#e0af68">X / Twitter</tspan><tspan fill="#3b4261"> .. </tspan><tspan fill="#7aa2f7">@NattieNkosi</tspan></text>
+<text x="372.5" y="540.4" xml:space="preserve"><tspan fill="#f7768e">GitHub Stats </tspan><tspan fill="#3b4261">---------------------------------</tspan></text>
+<text x="372.5" y="560.9" xml:space="preserve"><tspan fill="#e0af68">Repos</tspan><tspan fill="#3b4261"> ........ </tspan><tspan fill="#ff9e64">146   ·   Stars   12</tspan></text>
+<text x="372.5" y="581.4" xml:space="preserve"><tspan fill="#e0af68">Community</tspan><tspan fill="#3b4261"> .... </tspan><tspan fill="#ff9e64">23 followers   ·   17 following</tspan></text>
+  </g>
+</svg>
