@@ -8,10 +8,3 @@
   <a href="https://x.com/NattieNkosi">X</a> &nbsp;·&nbsp;
   <a href="mailto:nkosin361@gmail.com">Email</a>
 </p>
-
-## Featured Projects
-
-- **[MyReddit](https://my-reddit-liard.vercel.app/)** — Reddit-style community platform · [source](https://github.com/Nattie-Nkosi/my-reddit)
-- **[Next Store](https://next-store-opal-mu.vercel.app/)** — Full-stack e-commerce platform · [source](https://github.com/Nattie-Nkosi/next-store)
-- **[Resume Builder](https://resume-builder-two-lake.vercel.app/)** — Build and export resumes · [source](https://github.com/Nattie-Nkosi/resume-builder)
-- **[Quiz App](https://github.com/Nattie-Nkosi/quiz-app)** — Interactive quiz application
