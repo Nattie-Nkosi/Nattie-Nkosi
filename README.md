@@ -15,9 +15,3 @@
 - **[Next Store](https://next-store-opal-mu.vercel.app/)** — Full-stack e-commerce platform · [source](https://github.com/Nattie-Nkosi/next-store)
 - **[Resume Builder](https://resume-builder-two-lake.vercel.app/)** — Build and export resumes · [source](https://github.com/Nattie-Nkosi/resume-builder)
 - **[Quiz App](https://github.com/Nattie-Nkosi/quiz-app)** — Interactive quiz application
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-green.svg" alt="Nattie Nkosi's 3D contribution graph" width="860">
-</div>
-
-<sub>The card above is generated from <code>assets/generate_card.py</code> — edit the <code>CONTENT</code> list and re-run <code>python assets/generate_card.py</code> to update it.</sub>
